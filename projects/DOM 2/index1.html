@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            background-color: rgb(4, 49, 49);
+        }
+    
+        #main-heading {
+            text-align: center;
+            color: aliceblue;
+        }
+        .container{
+            border-style: solid;
+            margin: 100px 100px;
+            width: 25rem;
+        }
+        .hidden-content {
+             
+            border-style: solid;
+            border-color: rgb(235, 225, 225);
+             
+            width: fit-content;
+            border: 3px solid green;
+            padding: 10px;
+           
+            text-align: center;
+    
+        }
+    
+         .reveal-btn{
+            border-style:solid;
+            margin: 0px 10px 0px 140px;
+         }
+         .hidden-content{
+            display: none;
+         }
+         .hidden-content.reveal-btn{
+            display: block;
+         }
+        </style>
+</head>
+<body>
+    <h1 id="main-heading"> Event Listener</h1>
+    <div class="container">
+        <button onclick class="reveal-btn boxes">Reveal More</button>
+        <div class="hidden-content boxes">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut totam sequi ullam praesentium excepturi? Dolor totam amet delectus nostrum! Cupiditate dolorem, molestias officiis laboriosam excepturi distinctio illo soluta porro odio!
+
+        </div>
+    </div>
+</body>
+<script src="app1.js"></script>
+</html>
